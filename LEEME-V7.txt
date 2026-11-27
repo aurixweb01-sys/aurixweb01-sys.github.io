@@ -1,0 +1,21 @@
+AURIX · V7 — PREPARACIÓN PARA PUBLICAR
+
+Cambios respecto a V6
+- politica-privacidad.html: nuevo apartado sobre el almacenamiento local (clave aurix-theme), con la base legal y cómo borrarlo. Fecha actualizada.
+- og-image.png: imagen de vista previa 1200×630 para redes sociales.
+- index.html: sin cambios respecto a V6.
+
+Pendiente de la URL definitiva
+1. Añadir en index.html: link rel="canonical", og:url y og:image absoluta (apuntar a og-image.png), y twitter:image.
+2. Generar sitemap.xml con las URLs reales (inicio, aviso legal y privacidad) y añadir la línea Sitemap en robots.txt.
+3. Registrar y verificar el dominio en Google Search Console y enviar el sitemap.
+
+Pendiente tras publicar
+4. Medir Core Web Vitals con datos reales: LCP menor de 2,5 s, INP menor de 200 ms y CLS menor de 0,1.
+5. Probar en Brave (PC) y en iPhone: tema claro y oscuro, menú móvil, formulario, botón de WhatsApp y enlaces legales.
+
+Revisión de esta versión
+- Enlaces internos: todos apuntan a una sección existente.
+- JavaScript: sintaxis correcta.
+- Sin texto de marcador de posición en index.html ni en las páginas legales.
+- Los textos legales deben revisarse con asesoría antes de publicar.
